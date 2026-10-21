@@ -1,13 +1,13 @@
 {
-  "functions": {
-    "api/index.php": {
-      "runtime": "vercel-php@0.9.0"
-    }
-  },
-  "routes": [
-    { "src": "/build/(.*)", "dest": "/public/build/$1" },
-    { "src": "/img/(.*)", "dest": "/public/img/$1" },
-    { "src": "/curriculo.pdf", "dest": "/public/curriculo.pdf" },
-    { "src": "/(.*)", "dest": "/api/index.php" }
-  ]
+    "version": 2,
+    "builds": [
+        { "src": "api/index.php", "use": "vercel-php@latest" },
+        { "src": "public/**", "use": "@vercel/static" }
+    ],
+    "routes": [
+        { "src": "/build/(.*)", "dest": "/public/build/$1" },
+        { "src": "/img/(.*)", "dest": "/public/img/$1" },
+        { "src": "/curriculo.pdf", "dest": "/public/curriculo.pdf" },
+        { "src": "/(.*)", "dest": "/api/index.php" }
+    ]
 }
