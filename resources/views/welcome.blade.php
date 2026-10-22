@@ -18,9 +18,9 @@
 </head>
 <body class="bg-navy-950 font-sans text-slate-300 antialiased">
 @php
-    $linkedin = 'https://www.linkedin.com/in/pedro-alves';
+    $linkedin = 'https://www.linkedin.com/in/pedro-alves-13a30a336/';
     $github = 'https://github.com/pedrinho1205';
-    $email = 'seu-email@exemplo.com';
+    $email = 'pedroaugustooamg05@gmail.com';
     $hasResume = file_exists(public_path('curriculo.pdf'));
 
     $experiences = [
@@ -74,9 +74,9 @@
     ];
 
     $skills = [
-        'Backend' => ['PHP', 'Laravel', 'Python', 'APIs REST', 'Clean Code'],
-        'Dados' => ['PostgreSQL', 'MySQL', 'SQLite'],
-        'Infra' => ['Arquitetura de Redes', 'OPNsense', 'Virtualização', 'Linux'],
+        'Backend' => ['PHP', 'Laravel', 'APIs REST', 'Clean Code'],
+        'Dados' => ['PostgreSQL', 'MySQL'],
+        'Infra' => ['Arquitetura de Redes'],
         'Automação' => ['Integração Físico-Digital', 'Automação de Processos'],
     ];
 @endphp
@@ -102,7 +102,7 @@
             <h1 class="text-5xl font-bold tracking-tight text-slate-900 sm:text-7xl">Pedro Alves</h1>
             <h2 class="mt-3 text-2xl font-semibold text-slate-400 sm:text-3xl">Software Engineer &amp; Systems Analyst</h2>
             <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">
-                Transformando regras de negócios em soluções tecnológicas de alto impacto.
+                Desenvolvendo sistemas e automatizando fluxos para otimizar processos, impulsionar negócios e resolver problemas reais através da tecnologia.
             </p>
             <div class="mt-10 flex flex-wrap items-center gap-4">
                 <a href="{{ $linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
@@ -127,8 +127,7 @@
             <span class="h-px flex-1 bg-navy-800"></span>
         </h2>
         <p class="max-w-3xl text-lg leading-relaxed">
-            Acredito que a tecnologia só cumpre o seu papel quando facilita a vida de quem a utiliza. Atuo focado em resolver problemas reais, otimizar processos (com certificação Six Sigma White Belt) e garantir usabilidade. Minha paixão é analisar cenários complexos industriais, desenhar a arquitetura e construir o software que trará governança à operação.
-        </p>
+            Olá, eu sou o Pedro, Analista de Sistemas e Engenheiro de Software com atuação no estado de São Paulo. Técnico em Informática e acadêmico em Análise e Desenvolvimento de Sistemas, com foco em otimização de processos e em soluções para problemas reais, com certificação White Belt Six Sigma. Possuo experiência construindo aplicações em PHP/Laravel voltadas para resolução de gargalos operacionais e ERPs. Atualmente focado na análise, arquitetura e criação de soluções eficientes.
         <dl class="mt-12 grid gap-6 sm:grid-cols-3">
             @foreach ($stats as $stat)
                 <div class="flex flex-col-reverse rounded-xl border border-navy-800 bg-navy-900 p-6 text-center shadow-sm">
