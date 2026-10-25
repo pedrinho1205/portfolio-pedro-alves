@@ -25,12 +25,16 @@
 
     $experiences = [
         [
-            'title' => 'ERP Customizado e Automação Industrial',
-            'text' => 'Arquitetei e desenvolvi módulos core de um ERP (Compras, Produção, Estoque e Financeiro) em PHP/Laravel. Integrei soluções físico-digitais, como a automação de paletização com geração de etiquetas e leitura de código de barras para entrada no estoque em tempo real.',
+            'title' => 'Desenvolvedor Full Stack e Analista de Sistemas Junior',
+            'text' => 'Arquitetei e desenvolvi módulos core de um ERP (Compras, Produção, Estoque e Financeiro) personalizado para uma indústria de pré-moldados de concreto em PHP/Laravel, auxiliando também em suportes e manutenções. 
+            Integrei soluções físico-digitais, como a automação de paletização com geração de etiquetas e leitura de código de 
+            barras para entrada no estoque em tempo real. Minha rotina envolve traduzir necessidades reais de diferentes setores 
+            em softwares eficientes, além de otimizar processos internos',
         ],
         [
-            'title' => 'Integração de Sistemas',
-            'text' => 'Criei pipelines Python para coletar dados de CLPs locais e integrar com o ERP corporativo via APIs RESTful.',
+            'title' => 'Suporte técnico e Infraestrutura (Estágio)',
+            'text' => 'Experiência com suporte direto a usuários e manutenção de infraestrutura de TI no setor público (Prefeitura). Essa vivência desenvolveu minha capacidade de comunicação, 
+            resolução ágil de problemas diários e empatia para entender a dor do usuário final antes de propor uma solução.',
         ],
     ];
 
@@ -38,45 +42,48 @@
     $projects = [
         [
             'name' => 'ERP Multi-empresa',
-            'problem' => '[editar] Problema de negócio que o ERP resolveu.',
-            'stack' => ['PHP', 'Laravel', 'PostgreSQL'],
-            'result' => '[editar] Resultado alcançado.',
+            'problem' => '2O ERP foi construido apoiando-se nos processos da empresa, com a finalidade de otimizá-los e criar uma aplicação personalizada para a organização, que contribui para os seus objetivos estratégicos.',
+            'stack' => ['PHP', 'Laravel', 'PostgreSQL', 'Bootstrap', 'HTML', 'CSS', 'Levantamento de requisitos', 'Modelagem de dados'],
+            'result' => 'Redução de processos manuais e criação de funcionalidades adaptadas à operação.',
             'link' => null,
         ],
         [
             'name' => 'Automação de Paletização',
-            'problem' => '[editar] Geração de etiquetas e leitura de código de barras para entrada de estoque em tempo real.',
-            'stack' => ['Laravel', 'Código de barras', 'Etiquetas'],
-            'result' => '[editar] Resultado alcançado.',
+            'problem' => 'Geração de etiquetas e leitura de código de barras para entrada de estoque em tempo real.',
+            'stack' => ['Laravel', 'Código de barras', 'API', 'PostgreSQL'],
+            'result' => 'Redução de trabalho manual e erros humanos nos apontamentos de paletização, garantindo um estoque mais assertivo e confiável e economizando tempo do operador.',
             'link' => null,
         ],
         [
-            'name' => 'Pipeline CLP → ERP',
-            'problem' => '[editar] Coleta de dados de CLPs e integração com o ERP via API REST.',
-            'stack' => ['Python', 'APIs REST', 'CLP'],
-            'result' => '[editar] Resultado alcançado.',
+            'name' => 'Automação do consumo de agregados',
+            'problem' => 'Coleta de dados do BD do CLP que roda em uma máquina na usina e integração com o ERP via API REST, enviando o consumo de agregados diretamente para o sistema via requisição HTTP, o que antes era realizado manualmente pelo operador via grupo de WhatsApp.',
+            'stack' => ['Python', 'APIs REST', 'Laravel', 'PostgreSQL'],
+            'result' => 'Economia de tempo e eliminação de trabalho manual no controle do estoque.',
             'link' => null,
         ],
     ];
 
     // [editar] Métricas de exemplo: use apenas números reais.
     $stats = [
-        ['value' => '[editar]', 'label' => 'Módulos entregues'],
-        ['value' => '[editar]', 'label' => 'Processos automatizados'],
+        ['value' => '4', 'label' => 'Módulos entregues'],
+        ['value' => '12', 'label' => 'Processos automatizados'],
         ['value' => '[editar]', 'label' => 'Redução de retrabalho'],
     ];
 
     // [editar] Formação de exemplo.
     $education = [
         ['title' => 'Six Sigma White Belt', 'detail' => 'Certificação'],
-        ['title' => '[editar] Graduação', 'detail' => '[editar] Instituição / ano'],
-        ['title' => '[editar] Curso ou certificação', 'detail' => '[editar] Instituição / ano'],
+        ['title' => 'Tecnólogo em Análise e Desenvolvimento de Sistemas', 'detail' => 'Fatec | 2024-2026'],
+        ['title' => 'Ensino médio integrado ao Curso Técnico em Informática', 'detail' => 'IFSP | 2020 - 2023'],
     ];
 
     $skills = [
         'Backend' => ['PHP', 'Laravel', 'APIs REST', 'Clean Code'],
-        'Dados' => ['PostgreSQL', 'MySQL'],
-        'Infra' => ['Arquitetura de Redes'],
+        'Frontend' => ['HTML', 'CSS', 'Javascript', 'Bootstrap'],
+        'Dados' => ['PostgreSQL', 'MySQL', 'Modelagem de dados'],
+        'Versionamento' => ['Git', 'Github'],
+        'Infra' => ['Configuração de roteadores'],
+        'Engenharia e processos' => ['Levantamento de requisitos', 'Suporte técnico'],
         'Automação' => ['Integração Físico-Digital', 'Automação de Processos'],
     ];
 @endphp
@@ -127,7 +134,11 @@
             <span class="h-px flex-1 bg-navy-800"></span>
         </h2>
         <p class="max-w-3xl text-lg leading-relaxed">
-            Olá, eu sou o Pedro, Analista de Sistemas e Engenheiro de Software com atuação no estado de São Paulo. Técnico em Informática e acadêmico em Análise e Desenvolvimento de Sistemas, com foco em otimização de processos e em soluções para problemas reais, com certificação White Belt Six Sigma. Possuo experiência construindo aplicações em PHP/Laravel voltadas para resolução de gargalos operacionais e ERPs. Atualmente focado na análise, arquitetura e criação de soluções eficientes.
+            Olá, eu sou o Pedro, Analista de Sistemas e Engenheiro de Software com atuação no estado de São Paulo. 
+            Técnico em Informática pelo IFSP e acadêmico em Análise e Desenvolvimento de Sistemas pela Fatec, com foco 
+            em otimização de processos e no desenvolvimento de soluções que resolvem problemas reais. Possuo experiência construindo aplicações 
+            em PHP/Laravel voltadas para resolução de gargalos operacionais, com participação no desenvolvimento de módulos de 
+            um ERP. Atualmente focado na análise, arquitetura e criação de soluções eficientes.
         <dl class="mt-12 grid gap-6 sm:grid-cols-3">
             @foreach ($stats as $stat)
                 <div class="flex flex-col-reverse rounded-xl border border-navy-800 bg-navy-900 p-6 text-center shadow-sm">
